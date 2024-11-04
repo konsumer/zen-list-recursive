@@ -13,6 +13,10 @@ await configure({
   }
 })
 
+console.log('non-recursive list of /zip')
+console.log(await fs.readdir('/zip'))
+// works ok
+
 console.log('non-recursive list of /mnt/zip')
 console.log(await fs.readdir('/mnt/zip'))
 // works ok
@@ -23,7 +27,7 @@ console.log(await fs.readdir('/very/deep/structure/zip'))
 
 console.log('non-recursive list of /')
 console.log(await fs.readdir('/'))
-// incorrectly outputs only ['zip']
+// incorrectly outputs only ['zip'] should be ['zip', 'mnt', 'very']
 
 console.log('recursive list of /')
 console.log(await fs.readdir('/', { recursive: true }))
