@@ -1,0 +1,16 @@
+{
+  "name": "zen-list-recursive",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "@zenfs/core": "^1.2.8",
+    "@zenfs/dom": "^1.0.3",
+    "@zenfs/zip": "^0.5.2"
+  }
+}
