@@ -3,11 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "vite"
-  },
-  "devDependencies": {
-    "vite": "^5.4.10",
-    "@zenfs/core": "^1.2.8",
-    "@zenfs/zip": "^0.5.2"
+    "start": "npx -y live-server docs"
   }
 }
