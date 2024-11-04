@@ -6,11 +6,8 @@
     "start": "vite"
   },
   "devDependencies": {
-    "vite": "^5.4.10"
-  },
-  "dependencies": {
+    "vite": "^5.4.10",
     "@zenfs/core": "^1.2.8",
-    "@zenfs/dom": "^1.0.3",
     "@zenfs/zip": "^0.5.2"
   }
 }
